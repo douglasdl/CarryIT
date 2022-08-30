@@ -1,0 +1,43 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+}
+
+body {
+    background: rgb(11,6,93);
+    background: radial-gradient(circle, rgba(11,6,93,1) 0%, rgba(13,9,164,1) 31%, rgba(101,101,224,1) 69%, rgba(0,5,255,1) 95%);
+}
+
+canvas {
+    background: #ddddee;
+}
+
+table {
+    padding: 1rem;
+    margin: 2rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+
+#imgWall, #imgGoal, #imgWorker, #imgLuggage {
+    display: none;
+}

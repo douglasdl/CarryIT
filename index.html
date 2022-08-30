@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carry It</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="init()">
+        <div class="container">
+            <canvas id="soko" width="800" height="440"></canvas>
+
+            <table>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="moveUp()">U</button>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="moveLeft()">L</button>
+                    </td>
+                    <td></td>
+                    <td>
+                        <button onclick="moveRight()">R</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="moveDown()">D</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+            <img id="imgWall" src="imgWall.png">
+            <img id="imgGoal" src="imgGoal.png">
+            <img id="imgWorker" src="imgWorker.png">
+            <img id="imgLuggage" src="imgLuggage.png">
+        </div>
+    </body>
+</html>

@@ -1,3 +1,3 @@
 # Carry It
 
-Play the game [here]().
+Play the game [here](https://douglasdl.github.io/CarryIt/).
